@@ -1,0 +1,197 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+body, html {
+  height: 100%;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("nashville_skyline.jpg");
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+font-family: ‘CernLight’, sans-serif;
+font-size: 54px;
+font-weight: 200;
+line-height: 1.1;   
+
+}
+
+.about-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.our-team-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.our-team-info h1 {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.1;   
+}
+
+.our-team-info p {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.1;   
+}
+
+.our-team-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.our-team-info ul li {
+    flex: 1;
+    min-width: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+#contactForm {
+    background-color: rgba(0,0,0, 0.4); /* Semi-transparent background */
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contactForm div {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
