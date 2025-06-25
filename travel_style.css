@@ -195,3 +195,17 @@ line-height: 1.1;
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Travel Recomendations */
+#result img,
+.search-result-item img {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
